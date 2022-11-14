@@ -1,15 +1,15 @@
 class Camfort < Formula
-  VERSION = "1.1.2".freeze
+  VERSION = "1.2.0".freeze
 
   desc "Refactoring and verification tool for Fortran"
   homepage "https://camfort.github.io"
   url "https://hackage.haskell.org/package/camfort-#{VERSION}/camfort-#{VERSION}.tar.gz"
-  sha256 "d2b16259b486faf90c4a6144ae19ff94e02bd69d5e97773effb1244724e9468d"
+  sha256 "c8d61182cd02b9d4601f40408f7d8f4eb0895e16a37ee85e624075fa89d25ac4"
   license "Apache-2.0"
   head "https://github.com/camfort/camfort.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/camfort/homebrew-camfort/releases/download/camfort-1.1.2"
+    root_url "https://github.com/camfort/homebrew-camfort/releases/download/camfort-1.2.0"
     sha256 cellar: :any, catalina: "8a5d005efdf59908d96d3022ac01b765fc12c6380b5aa58411f51b1909fda5cc"
   end
 
