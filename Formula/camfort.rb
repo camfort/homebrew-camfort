@@ -10,7 +10,7 @@ class Camfort < Formula
 
   bottle do
     root_url "https://github.com/camfort/homebrew-camfort/releases/download/camfort-1.2.0"
-    sha256 cellar: :any, catalina: "8a5d005efdf59908d96d3022ac01b765fc12c6380b5aa58411f51b1909fda5cc"
+    sha256 cellar: :any, big_sur: "eed552a91f9429531a2a3b59ba3c81755f85b989fd8963863c7e4748f66b9737"
   end
 
   depends_on "cabal-install" => :build
